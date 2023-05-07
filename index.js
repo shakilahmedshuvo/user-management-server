@@ -22,6 +22,7 @@ app.get('/users', (req, res) => {
 })
 
 app.post('/users', (req, res) => {
+    console.log('post api hitting');
     console.log(req.body);
 })
 
